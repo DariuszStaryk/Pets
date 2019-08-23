@@ -9,6 +9,7 @@
     <meta name="author" content="Dariusz Staryk">
     <title>Pets</title>
     
+    <link rel="shortcut icon" href="img/favicon.ico">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap" rel="stylesheet">  <!-- font-family: 'Roboto', sans-serif; -->
@@ -19,21 +20,23 @@
     body {font-family: 'Roboto', sans-serif;}
     * {box-sizing: border-box; margin: 0px;}
     
+    /* Header */
+
     .Header {back4ground-color: rgb(252, 181, 94); width: 100%; height: auto;}
     .Header_Top {background-color: #3C2800; width: 100%; height: 38px; color: white; display: flex; justify-content: center; align-items: center;}
-    .Header_Top p {font-size: 16px;}
-    .Header_Top i {font-size: 16px;}
-    .Header_Top i:hover {color: #F7941D; cursor: pointer;}
+    .Header_Top p {font-size: 16px; margin-right: 620px;}
+    .Header_Top i {font-size: 17px; margin-right: 32px;}
+    .Header_Top i:hover {color: #F7941D; cursor: pointer; transform: scale(1.2); transition: 0.2s;}
     .Header_Bottom {background-color: rgb(255, 248, 224); width: 100%; height: 100px; color: #3C2800; display: flex; justify-content: center; align-items: center;}
-    .Header_Bottom i {color: #F7941D;}
-    .Header_Bottom > p {font-size: 42px; font-weight: bold; margin: 0px;}
-    .He5ader_Bottom p {margin: 0px;}
+    .Header_Bottom i {color: #F7941D; margin-right: 24px;}
+    .Header_Bottom > p {font-size: 42px; font-weight: bold; margin-right: 340px;}
+    .Header_Bottom div p:first-child {margin-bottom: 6px;}
+    .Header_Bottom .Open_Hours {margin-right: 60px;}
     .Header_Bottom i:first-child {font-size: 52px;}
-    .Open_Hours p:first-child, .Call_Today p:first-child {font-size: 16px; letter-spacing: 0.6px;}
+    .Open_Hours p:first-child, .Call_Today p:first-child {font-size: 17px; letter-spacing: 0.6px;}
     .Open_Hours p, .Call_Today p {font-size: 22px; font-weight: bold; letter-spacing: 0.6px;}
     .Header_Bottom i:nth-child(3) {font-size: 32px;}
     .Header_Bottom i:nth-child(5) {font-size: 28px;}
-    .Header_Bottom i {color: #F7941D;}
     
 
   /* Media queries */
@@ -53,10 +56,10 @@
     <header class="Header">
         <div class="Header_Top">
             <p>Welcome to The Best Pets Care at Melbourne</p>
-            <i class="fab fa-facebook-f"></i>
-            <i class="fab fa-twitter"></i>
-            <i class="fab fa-instagram"></i>
-            <i class="fab fa-pinterest-p"></i>
+            <i class="fab fa-facebook-f" title="Facebook"></i>
+            <i class="fab fa-twitter" title="Twitter"></i>
+            <i class="fab fa-instagram" title="Instagram"></i>
+            <i class="fab fa-pinterest-p" title="Pinterest"></i>
         </div>
         <div class="Header_Bottom">
             <i class="fas fa-paw"></i>
